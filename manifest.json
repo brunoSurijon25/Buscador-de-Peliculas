@@ -1,0 +1,24 @@
+{
+    "name": "Busca tu pelicula preferida",
+    "short_name": "Peliculas para disfrutar",
+    "description": "Una aplicación web para buscar las peliculas favoritos, ver todos sus detalles y agregarlas a favoritos",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#333",
+    "theme_color": "#333",
+    "icons": [
+        {
+            "src": "img/icono-cine.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icono-error.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        }
+    ],
+    "scope": "/",
+    "orientation": "any",
+    "lang": "es-ES"
+}

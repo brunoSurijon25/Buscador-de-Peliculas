@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    font-family: "Ubuntu Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+form {
+    max-width: 650px; 
+    margin: 0 auto;
+}
+
+form input[type="search"] {
+    border: 1px solid #333; 
+    border-radius: 7px; 
+    padding: 5px;
+    outline: none; 
+}
+
+form input[type="search"]:focus {
+    border-color: black; 
+}
+
+.form-control::placeholder {
+    padding-left: 5px;
+}
+
+.btn-outline-success {
+    border: 1px solid black; 
+    outline: none; 
+}
+
+.btn-outline-success:hover {
+    border: 1px solid black; 
+    background-color: transparent;
+}
+
+#inputBuscar::-webkit-search-cancel-button {
+    cursor: pointer;
+}
+
+
+#peliculas {
+    margin-top: 40px; 
+}
+
+main {
+    padding: 20px; 
+}
+
+.card {
+    margin: 0 10px 20px;
+}
+
+
+footer {
+    margin-top: 40px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
